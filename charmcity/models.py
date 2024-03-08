@@ -18,6 +18,43 @@ class process(models.Model):
 class NotNew(models.Model):
     name = models.CharField(max_length=200)
 
+    name = models.CharField(max_length=200)
+
+class NotHope(models.Model):
+    hope_percentage = models.FloatField()
+
+class Goal(models.Model):
+    hope_percentage = models.FloatField()
+
+class GoalSchool(models.Model):
+    hope_percentage = models.FloatField()
+
+class New(models.Model):
+    name = models.CharField(max_length=200)
+
+class Cart(models.Model):
+    name = models.CharField(max_length = 200)
+
+class Order(models.Model):
+    name = models.CharField(max_length = 200)
+
+
+class process(models.Model):
+    name = models.CharField(max_length=200)
+
+class NotNew(models.Model):
+
+    name = models.CharField(max_length=200)
+
+class NotHope(models.Model):
+    hope_percentage = models.FloatField()
+
+class Goal(models.Model):
+    hope_percentage = models.FloatField()
+
+class GoalSchool(models.Model):
+    hope_percentage = models.FloatField()
+
 class New(models.Model):
     name = models.CharField(max_length=200)
     
@@ -30,3 +67,4 @@ class New3(models.Model):
     
 class Hopee(models.Model):
     name = models.CharField(max_length=200)
+
