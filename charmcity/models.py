@@ -13,3 +13,6 @@ class Order(models.Model):
 
 class process(models.Model):
     name = models.CharField(max_length=200)
+
+class NotNew(models.Model):
+    name = models.CharField(max_length=200)
