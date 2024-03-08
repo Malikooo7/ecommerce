@@ -16,6 +16,10 @@ class process(models.Model):
     name = models.CharField(max_length=200)
 
 class NotNew(models.Model):
+    name = models.CharField(max_length=200)
 
 class New(models.Model):
+    name = models.CharField(max_length=200)
+    
+class Hope(models.Model):
     name = models.CharField(max_length=200)
