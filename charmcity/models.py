@@ -16,6 +16,7 @@ class process(models.Model):
     name = models.CharField(max_length=200)
 
 class NotNew(models.Model):
+    name = models.CharField(max_length=200)
 
     name = models.CharField(max_length=200)
 
@@ -30,8 +31,6 @@ class GoalSchool(models.Model):
 
 class New(models.Model):
     name = models.CharField(max_length=200)
-
-
 
 class Cart(models.Model):
     name = models.CharField(max_length = 200)
@@ -57,5 +56,15 @@ class GoalSchool(models.Model):
     hope_percentage = models.FloatField()
 
 class New(models.Model):
+    name = models.CharField(max_length=200)
+    
+class Hope(models.Model):
+    name = models.CharField(max_length=200)
+    
+    
+class New3(models.Model):
+    name = models.CharField(max_length=200)
+    
+class Hopee(models.Model):
     name = models.CharField(max_length=200)
 
