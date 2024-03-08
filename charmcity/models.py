@@ -23,3 +23,10 @@ class New(models.Model):
     
 class Hope(models.Model):
     name = models.CharField(max_length=200)
+    
+    
+class New3(models.Model):
+    name = models.CharField(max_length=200)
+    
+class Hopee(models.Model):
+    name = models.CharField(max_length=200)
