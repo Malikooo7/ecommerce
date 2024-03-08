@@ -10,3 +10,6 @@ class Cart(models.Model):
 
 class Order(models.Model):
     name = models.CharField(max_length = 200)
+
+class New(models.Model):
+    name = models.CharField(max_length=200)
