@@ -11,5 +11,11 @@ class Cart(models.Model):
 class Order(models.Model):
     name = models.CharField(max_length = 200)
 
+
+class process(models.Model):
+    name = models.CharField(max_length=200)
+
+class NotNew(models.Model):
+
 class New(models.Model):
     name = models.CharField(max_length=200)
