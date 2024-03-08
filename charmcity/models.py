@@ -7,3 +7,8 @@ class product(models.Model):
     
 class Cart(models.Model):
     name = models.CharField(max_length = 200)
+    
+    
+    
+class price(models.Model):
+    name = models.CharField(max_length=200)    
