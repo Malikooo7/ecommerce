@@ -16,3 +16,9 @@ class process(models.Model):
 
 class NotNew(models.Model):
     name = models.CharField(max_length=200)
+
+class NotHope(models.Model):
+    hope_percentage = models.FloatField()
+
+class Goal(models.Model):
+    hope_percentage = models.FloatField()
