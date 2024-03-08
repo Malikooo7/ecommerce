@@ -22,3 +22,6 @@ class NotHope(models.Model):
 
 class Goal(models.Model):
     hope_percentage = models.FloatField()
+
+class GoalSchool(models.Model):
+    hope_percentagew = models.FloatField()
