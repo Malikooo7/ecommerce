@@ -11,10 +11,12 @@ class Cart(models.Model):
 class Order(models.Model):
     name = models.CharField(max_length = 200)
 
+
 class process(models.Model):
     name = models.CharField(max_length=200)
 
 class NotNew(models.Model):
+
     name = models.CharField(max_length=200)
 
 class NotHope(models.Model):
@@ -24,4 +26,10 @@ class Goal(models.Model):
     hope_percentage = models.FloatField()
 
 class GoalSchool(models.Model):
-    hope_percentagew = models.FloatField()
+    hope_percentage = models.FloatField()
+
+class New(models.Model):
+    name = models.CharField(max_length=200)
+
+
+
