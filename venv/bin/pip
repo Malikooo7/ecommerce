@@ -1,4 +1,6 @@
-#!/Users/apple/Desktop/ecomarce/venv/bin/python3.12
+#!/bin/sh
+'''exec' "/Users/apple/Desktop/untitled folder/ecommerce/venv/bin/python3.12" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
