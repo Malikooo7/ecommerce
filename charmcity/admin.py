@@ -12,7 +12,7 @@ class Sub_categoryAdmin(admin.ModelAdmin):
     
     
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['id','title', 'description', 'brand' , 'weight' , 'size', 'price' , 'category' ,'sub_category' , 'sale']
+    list_display = ['id','title', 'description', 'brand' , 'weight' , 'size', 'price' , 'category' , 'sub_category' , 'sale']
     
     
 class CartAdmin(admin.ModelAdmin):
