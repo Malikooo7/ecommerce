@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block 'style' %}
+<style>
+    .image{
+        background-image: url('{% static "img/car.jpg" %}');
+        background-size: cover;
+    }
+</style>
+{% endblock %}
+{% block 'title' %}Login{% endblock %}
+{% block 'body' %}
+<div class="container-fluid bg-warning d-flex align-items-center flex-column flex-lg-row" style="height: 100vh;">
+    <div class="w-100 w-lg-50 h-100 bg-danger image d-lg-block d-none"></div>
+    <div class="w-lg-50 h-100 bg-white w-100">
+        <form action="" class="h-100 d-flex align-items-center justify-content-center flex-column">
+            <div class="container ">
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
